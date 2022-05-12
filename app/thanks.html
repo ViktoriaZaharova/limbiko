@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Limbiko</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.css"
+        integrity="sha512-g+xyrYTXR0jF5EZGiQUMisX9Rv9RfTnbaOKe9AJsjBVBMG9bk6aYXqYujStYTKPTDEcVo+6eLziI7Hr4GV1C1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<div id="fullpage">
+
+  <!--### SECTION thanks-section ###-->
+  <section class="section thanks-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="thanks-content">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="subtitle">Благодарим за отклик</div>
+            <h1>Форма успешно отправлена! <br>Мы свяжемся с Вами в течение 15-30 минут</h1>
+
+            <a href="index.html" class="btn btn-accent">Вернуться на главную</a>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--### SECTION thanks-section END ###-->
+
+</div>
+
+
+<!-- Модальное окно -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="subtitle">Форма обратной связи</div>
+        <h5 class="modal-title">Получить индивидуальное предложение от «Limbiko»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label>
+            <span class="input-title">Как к Вам обращаться?</span>
+            <input type="text" placeholder="Александр" name="name">
+          </label>
+          <label>
+            <span class="input-title">Какой номер телефона используете для связи?</span>
+            <input type="text" placeholder="+7 (999)-999-99-99" name="phone">
+          </label>
+          <label>
+            <span class="input-title">Какую сумму планируете инвестировать?</span>
+            <input type="text" placeholder="от 1 млн до 3 млн рублей" name="sum">
+          </label>
+
+          <button type="submit" class="btn btn-accent">Получить индивидуальное предложение</button>
+
+          <div class="consent">Получение индивидуального предложения ни к чему не обязывает</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="subtitle">Форма обратной связи</div>
+        <h5 class="modal-title">Обсудить детали инвестиций в социальную сеть «Limbiko»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label>
+            <span class="input-title">Как к Вам обращаться?</span>
+            <input type="text" placeholder="Александр" name="name">
+          </label>
+          <label>
+            <span class="input-title">Какой номер телефона используете для связи?</span>
+            <input type="text" placeholder="+7 (999)-999-99-99" name="phone">
+          </label>
+          <label>
+            <span class="input-title">Какую сумму планируете инвестировать?</span>
+            <input type="text" placeholder="от 1 млн до 3 млн рублей" name="sum">
+          </label>
+
+          <button type="submit" class="btn btn-accent">Обсудить детали инвестиций</button>
+
+          <div class="consent">Данное действие ни к чему Вас не обязывает</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="subtitle">Форма обратной связи</div>
+        <h5 class="modal-title">Быть первым вместе с социальной сетью «Limbiko»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label>
+            <span class="input-title">Как к Вам обращаться?</span>
+            <input type="text" placeholder="Александр" name="name">
+          </label>
+          <label>
+            <span class="input-title">Какой номер телефона используете для связи?</span>
+            <input type="text" placeholder="+7 (999)-999-99-99" name="phone">
+          </label>
+          <label>
+            <span class="input-title">Какую сумму планируете инвестировать?</span>
+            <input type="text" placeholder="от 1 млн до 3 млн рублей" name="sum">
+          </label>
+
+          <button type="submit" class="btn btn-accent">Быть первым вместе</button>
+
+          <div class="consent">Данное действие ни к чему Вас не обязывает</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="subtitle">Форма обратной связи</div>
+        <h5 class="modal-title">Связаться с сооснователем социальной сети «Limbiko»</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label>
+            <span class="input-title">Как к Вам обращаться?</span>
+            <input type="text" placeholder="Александр" name="name">
+          </label>
+          <label>
+            <span class="input-title">Какой номер телефона используете для связи?</span>
+            <input type="text" placeholder="+7 (999)-999-99-99" name="phone">
+          </label>
+          <label>
+            <span class="input-title">Какую сумму планируете инвестировать?</span>
+            <input type="text" placeholder="от 1 млн до 3 млн рублей" name="sum">
+          </label>
+
+          <button type="submit" class="btn btn-accent">Связаться с сооснователем</button>
+
+          <div class="consent">Данное действие ни к чему Вас не обязывает</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.min.js"
+        integrity="sha512-MLy5YE5Hiyow/qhqZAsO91PjjWUBngedTSWTdvSbEPjFienlVY6SJ8Uy7eLHkudkv3kTJ7NFHZ9s0JD/UwpHdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

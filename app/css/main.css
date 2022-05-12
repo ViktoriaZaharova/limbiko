@@ -440,3 +440,19 @@
   font-size: 16px; }
 
 /*==========  modal end  ==========*/
+/*==========  thanks  ==========*/
+.thanks-content {
+  text-align: center; }
+  .thanks-content h1 {
+    margin: 0 auto 77px; }
+  .thanks-content .btn {
+    height: 80px;
+    max-width: 540px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto; }
+  .thanks-content .logo {
+    max-width: 187px;
+    margin: 0 auto 34px; }
+
+/*==========  thanks end  ==========*/
