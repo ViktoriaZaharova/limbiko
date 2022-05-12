@@ -1,0 +1,46 @@
+/*==========  header  ==========*/
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  padding: 44px 0; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 187px;
+  width: 100%; }
+
+.header-box {
+  margin: 0 auto;
+  font-size: 29px;
+  letter-spacing: 0.05em; }
+  .header-box span {
+    display: block;
+    font-size: 18px; }
+
+.header-contact {
+  letter-spacing: 0.05em;
+  text-align: right; }
+  .header-contact span {
+    display: block;
+    font-size: 20px; }
+
+.phone {
+  font-size: 28px;
+  color: #2E2E2E; }
+  .phone:hover {
+    color: #2E2E2E; }
+
+/*==========  header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

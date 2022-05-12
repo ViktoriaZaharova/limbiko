@@ -1,0 +1,571 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1550px) {
+  .home-img {
+    max-width: 900px; }
+  .home-advantages {
+    margin: 0 0 40px; }
+  .home-content .box-text {
+    margin: 25px 0 50px; }
+    .home-content .box-text br {
+      display: none; }
+  .section-history-img {
+    max-width: 300px; }
+  .investments-image {
+    max-width: 500px;
+    left: -190px; }
+  .investments-section h2 {
+    font-size: 55px;
+    line-height: normal; }
+  .scale-section-wrapper h3 {
+    font-size: 90px; }
+  .scale-section-wrapper .home-advantages-box {
+    margin: 0 0 30px; }
+  .scale-section-wrapper .home-advantages-box__num .number {
+    font-size: 90px;
+    line-height: normal; }
+  .income-box {
+    margin: 0 0 50px; }
+    .income-box h3 {
+      font-size: 50px; }
+  .stages-section h2, .plane-stages h3 {
+    margin: 0 0 50px; }
+  .plane-stages {
+    margin: 60px 0 0; }
+  .enthusiasts-section-img {
+    max-width: 700px;
+    left: -100px; }
+  .enthusiasts-section .letter-item {
+    font-size: 220px;
+    line-height: normal;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0; }
+  .enthusiasts-section .letter span {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: -30px 80px 0 auto; } }
+
+@media only screen and (max-width: 1300px) {
+  .header {
+    padding: 34px 0; }
+  .home-img {
+    max-width: 900px; }
+  .section-history-img {
+    max-width: 250px; }
+  .investments-section h2 {
+    font-size: 45px;
+    line-height: 1; }
+  .sources-box {
+    height: 240px; }
+  .sources-box__img {
+    max-width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  .scale-section-wrapper .home-advantages-box__num {
+    margin: -10px 0 0; }
+  .scale-section-wrapper .home-advantages-box__num .number {
+    font-size: 70px; }
+  .scale-section-wrapper .home-advantages-box__num .currency {
+    margin: 0 0 5px; }
+  .scale-section-wrapper .home-advantages-box__num .currency span {
+    font-size: 40px;
+    line-height: normal; }
+  .scale-section-wrapper .home-advantages-box .text {
+    font-size: 16px;
+    line-height: 24px; }
+  .letter-item {
+    font-size: 300px; }
+  .enthusiasts-footer .btn {
+    max-width: 250px; }
+  .enthusiasts-section-img {
+    max-width: 600px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1100px) {
+  .enthusiasts-section-img {
+    max-width: 550px; } }
+
+@media only screen and (max-width: 992px) {
+  .fp-overflow {
+    overflow-y: visible;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; }
+  #fullpage {
+    width: 100%; }
+  .section {
+    margin: 75px 0; }
+  .header {
+    position: relative; }
+  .home-img {
+    max-width: 700px;
+    right: -200px; }
+  h1 {
+    font-size: 24px;
+    line-height: 30px; }
+  .header-box {
+    font-size: 18px; }
+    .header-box span {
+      font-size: 14px; }
+  .phone {
+    font-size: 18px; }
+  .header-contact span {
+    font-size: 14px; }
+  .section-history-img {
+    left: -15px; }
+  .home-content .box-text {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 160px; }
+  .section-history .home-advantages-box {
+    width: 100%;
+    margin: 0 66px 0 0; }
+    .section-history .home-advantages-box:nth-child(2) {
+      margin: -80px 0 66px 280px; }
+  .section-history .home-advantages h4 {
+    margin: 0 0 0 290px; }
+  .investments-section h2 {
+    max-width: 382px;
+    margin: 0 0 42px; }
+  .investments-image {
+    max-width: 700px;
+    left: -260px; }
+  .home-advantages-box .text {
+    margin: 0 0 0 38px; }
+  .sources h2 {
+    font-size: 36px;
+    margin: 0 0 46px; }
+  .scale-section {
+    margin: 150px 0 75px; }
+  .scale-section-wrapper h3 {
+    position: relative;
+    margin: 0 0 67px;
+    font-size: 96px; }
+    .scale-section-wrapper h3:before {
+      content: '';
+      position: absolute;
+      width: 443px;
+      height: 362px;
+      background: url("../img/loope.png") no-repeat center;
+        background-size: contain;
+      left: -76px;
+      top: 70%;
+      -webkit-transform: translate(0, -50%);
+              transform: translate(0, -50%); }
+  .income-section .description {
+    text-align: center;
+    margin: 11px auto 0;
+    font-size: 16px; }
+  .stages-section .home-advantages-box .text {
+    margin-bottom: 10px; }
+  .enthusiasts-section {
+    padding: 0 0 300px; }
+  .enthusiasts-section-img {
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    max-width: 624px; }
+  .enthusiasts-footer .btn {
+    max-width: none;
+    width: 100%;
+    margin: 0 auto 20px; }
+  .enthusiasts-footer .box-text {
+    margin: 0 auto;
+    max-width: none;
+    text-align: center;
+    width: 100%; }
+    .enthusiasts-footer .box-text br {
+      display: none; }
+  .developer-content {
+    padding: 0; }
+  .developer-box {
+    margin: 65px 0 30px; }
+  .developer-photo {
+    height: 500px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 840px) {
+  .home-content h1, .home-content .subtitle {
+    padding: 0 100px 0 0; }
+  .home-content .box-text {
+    padding: 0 170px 0 0; } }
+
+@media only screen and (max-width: 768px) {
+  .home-content h1, .home-content .subtitle {
+    padding: 0 144px 0 0; }
+  .home-content .box-text {
+    padding: 0 162px 0 0;
+    margin: 39px 0 154px; }
+  .home-content .btn {
+    width: 100%; }
+  .home-content .subtext {
+    width: 100%;
+    max-width: none; }
+  .home-img {
+    max-width: 528px;
+    right: -169px;
+    bottom: auto;
+    top: 0; }
+  .subtitle {
+    line-height: normal;
+    margin: 0 0 10px;
+    font-size: 16px; }
+  .logo {
+    max-width: 150px; }
+  .section-history h2 {
+    font-size: 28px; }
+  .section-history .home-advantages h4 {
+    font-size: 20px;
+    max-width: 240px; }
+  .section-history .home-advantages-box:nth-child(2) {
+    margin: -50px 0 66px 260px; }
+  .section-history .home-advantages-box p {
+    font-size: 14px;
+    line-height: 16px; }
+  .section-history .home-advantages-box__num {
+    margin: -10px 0 0; }
+    .section-history .home-advantages-box__num .number {
+      font-size: 64px;
+      line-height: 77px; }
+    .section-history .home-advantages-box__num .currency {
+      margin: 0 0 10px; }
+      .section-history .home-advantages-box__num .currency p {
+        font-size: 24px;
+        line-height: 29px; }
+  .section-history {
+    margin: 75px 0 0; }
+    .section-history h2 {
+      max-width: 412px; }
+    .section-history .box-text {
+      margin: 47px 0 0; }
+      .section-history .box-text br {
+        display: none; }
+  .title-decor:before {
+    width: 25px;
+    height: 25px;
+    top: -25px;
+    right: 30px; }
+  .box-text {
+    line-height: 24px; }
+  .investments-content {
+    padding: 0 0 0 150px; }
+  .investments-image {
+    left: -280px;
+    width: 700px; }
+  .scale-section-wrapper .home-advantages-box {
+    margin: 0 0 100px; }
+  .scale-section {
+    margin: 100px 0 75px; }
+  .scale-section-wrapper .home-advantages-box__num {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+  .scale-section-wrapper .home-advantages-box__num .currency {
+    white-space: nowrap; }
+  .plane-stages {
+    margin: 84px 0 0; }
+    .plane-stages h3 {
+      margin: 0 0 84px;
+      font-size: 36px; }
+  .stages-section h2 {
+    margin: 0 0 84px;
+    font-size: 36px;
+    line-height: normal; }
+    .stages-section h2 br {
+      display: block; }
+  .stages-section .home-advantages-box__num {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .stages-section .home-advantages-box .text {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    font-size: 16px;
+    line-height: 24px; }
+  .stages-section .home-advantages-box__num .number {
+    font-size: 120px;
+    line-height: 1; }
+  .stages-section .home-advantages-box__num .currency {
+    margin: 0 0 5px; }
+  .letter-item {
+    font-size: 220px;
+    margin: -30px 0 0; }
+  .stages-section2 h2 {
+    margin: 0 0 40px; }
+  .letter-number {
+    text-align: left; }
+    .letter-number .letter-item {
+      font-size: 220px;
+      margin: 0;
+      line-height: normal; }
+    .letter-number span {
+      font-size: 26px;
+      bottom: 75px;
+      left: 7px; }
+  .enthusiasts-section .letter-item {
+    font-size: 150px; }
+  .enthusiasts-section .letter {
+    position: relative; }
+    .enthusiasts-section .letter span {
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+      font-size: 22px;
+      position: absolute;
+      margin: 0;
+      line-height: normal;
+      top: 84px;
+      left: 107px; }
+  .enthusiasts-section h2 {
+    margin: 0 0 72px; }
+  .enthusiasts-section h4 {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 32px; }
+  h2 {
+    font-size: 36px;
+    line-height: normal; }
+  .developer-section {
+    margin: 75px 0 30px; }
+    .developer-section h2 {
+      margin: 0 0 58px; }
+  .developer-box {
+    margin: 75px 0 37px; }
+  .developer-box .title-decor:before {
+    top: -25px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .btn {
+    font-size: 18px; }
+  .logo {
+    max-width: 114px; }
+  .btn {
+    padding: 0 20px; }
+  .investments-section h2 {
+    font-size: 36px;
+    max-width: 300px; }
+  .investments-item {
+    font-size: 16px; }
+  .income-section h2 {
+    font-size: 36px; }
+    .income-section h2 br {
+      display: block; }
+  .income-box {
+    margin: 0 0 100px; }
+    .income-box h3 {
+      font-size: 64px; }
+    .income-box .box-text {
+      font-size: 16px; }
+  .mt-100 {
+    margin-top: 100px; }
+  .modal-title {
+    font-size: 26px;
+    line-height: normal; }
+  .modal-header .subtitle {
+    font-size: 18px; }
+  .modal-header {
+    margin: 0 0 30px; }
+  .form button {
+    margin: 30px 0 0;
+    font-size: 16px;
+    height: 60px; }
+  .modal-content {
+    padding: 30px; }
+  input {
+    font-size: 16px;
+    height: 50px; } }
+
+@media only screen and (max-width: 500px) {
+  .header-box {
+    font-size: 14px; }
+    .header-box span {
+      font-size: 11px; }
+  .header-contact span {
+    font-size: 11px; }
+  .phone {
+    font-size: 15px; }
+  .header {
+    padding: 20px 0; }
+  .logo {
+    max-width: 90px; }
+  .section {
+    margin: 30px 0; }
+  .section-history .home-advantages {
+    margin: 40px 0 0; }
+  .section-history .home-advantages-box:nth-child(2) {
+    margin: -30px 0 30px 200px; }
+  .section-history-img {
+    max-width: 200px; }
+  .section-history .home-advantages h4 {
+    margin: 0 0 0 200px;
+    font-size: 17px; }
+  .scale-section-wrapper .home-advantages-box {
+    margin: 0 0 40px; }
+    .scale-section-wrapper .home-advantages-box .home-advantages-box__num {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .scale-section-wrapper .home-advantages-box .text {
+    margin: 10px 0 0;
+    width: 100%;
+    max-width: none; }
+  .scale-section {
+    margin: 110px 0 60px; }
+  .scale-section-wrapper h3 {
+    font-size: 90px; }
+  .income-box {
+    margin: 0 0 40px; }
+    .income-box h3 {
+      font-size: 50px; }
+    .income-box:last-child {
+      margin: 0 0 60px; }
+  .income-section h2, .stages-section h2, .plane-stages h3, .enthusiasts-section h2 {
+    font-size: 30px;
+    margin: 0 0 50px;
+    line-height: normal; }
+  .letter-item {
+    font-size: 180px; }
+  .plane-stages {
+    margin: 50px 0 0; }
+  .stages-section .home-advantages-box__num .number {
+    font-size: 100px; }
+  .letter-number span {
+    left: 10px; }
+  .btn {
+    font-size: 16px;
+    line-height: normal; }
+  .mt-100 {
+    margin-top: 30px; }
+  .enthusiasts-section .letter-item {
+    font-size: 80px; }
+  .enthusiasts-section .letter span {
+    font-size: 12px;
+    top: 45px;
+    left: 55px; }
+  .enthusiasts-section h4 {
+    font-size: 18px;
+    line-height: normal; }
+  .enthusiasts-footer {
+    margin: 40px 0 0; }
+  h2 {
+    font-size: 28px;
+    line-height: 34px; }
+  .developer-photo-wrapper .developer-photo {
+    height: 600px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 440px) {
+  .home-content h1, .home-content .subtitle {
+    padding: 0 70px 0 0; }
+  .home-content .box-text {
+    margin: 39px 0 60px;
+    padding: 0; }
+  .home-advantages {
+    margin: 0 0 40px; }
+  .home-img {
+    max-width: 300px;
+    right: -100px; }
+  .header-box, .header-contact {
+    letter-spacing: 0; }
+  .investments-image {
+    width: 500px;
+    left: -210px; }
+  .investments-content {
+    padding: 0 0 0 100px; }
+  .investments-item {
+    margin: 0 0 25px; }
+  .sources-box {
+    font-size: 16px;
+    padding: 15px; }
+  .sources h2 {
+    font-size: 30px;
+    margin: 0; }
+  .income-box h3 {
+    font-size: 30px; }
+  .income-section h2 {
+    font-size: 26px; }
+  .income-section .description br {
+    display: none; }
+  .letter-item {
+    margin: -10px 0 0;
+    font-size: 120px; }
+  .letter-number .letter-item {
+    font-size: 150px; }
+  .letter-number span {
+    font-size: 18px;
+    line-height: normal;
+    bottom: 55px;
+    left: 5px; }
+  .developer-photo-wrapper .developer-photo {
+    height: 500px; }
+  .slogan {
+    font-size: 20px; }
+  .developer-section h2 {
+    margin: 0 0 40px; } }
+
+@media only screen and (max-width: 370px) {
+  .header-box {
+    font-size: 12px; }
+    .header-box span {
+      font-size: 9px; }
+  .header-contact span {
+    font-size: 9px; }
+  .logo {
+    max-width: 80px; }
+  .phone {
+    font-size: 12px; }
+  h1 {
+    font-size: 22px; }
+  h2 {
+    font-size: 22px;
+    line-height: normal; }
+  .btn {
+    font-size: 16px; }
+  .home-content .box-text {
+    margin: 30px 0 40px; }
+  .home-advantages-box {
+    margin: 0 10px 0 0; }
+    .home-advantages-box p {
+      font-size: 16px; }
+  .home-advantages-box__num .number {
+    font-size: 80px;
+    line-height: 1; }
+  .home-advantages-box__num {
+    margin: -10px 0 0; }
+  .home-advantages-box__num .currency {
+    margin: 0 0 5px; }
+  .home-advantages-box__num .currency span {
+    font-size: 45px;
+    line-height: 1; }
+  .home-advantages-box__num .currency p {
+    font-size: 20px;
+    line-height: 1;
+    margin: -5px 0 0; }
+  .section-history .box-text {
+    margin: 30px 0 0; }
+  .section-history .home-advantages-box__num {
+    margin: 0; }
+  .section-history .home-advantages-box__num .number {
+    font-size: 50px;
+    line-height: 1; }
+  .section-history .home-advantages-box__num .currency p {
+    font-size: 20px;
+    line-height: 1; }
+  .section-history .home-advantages-box__num .currency {
+    margin: 0 0 5px; }
+  .section-history .home-advantages-box:nth-child(2) {
+    margin: -30px 0 30px 170px; }
+  .section-history-img {
+    max-width: 150px; }
+  .section-history .home-advantages h4 {
+    margin: 0 0 0 130px;
+    font-size: 14px; }
+  .box-text {
+    font-size: 16px; }
+    .box-text p {
+      margin: 0 0 20px; }
+  .enthusiasts-section {
+    padding: 0 0 200px; } }
