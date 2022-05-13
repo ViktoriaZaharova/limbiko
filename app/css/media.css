@@ -517,7 +517,9 @@
     padding: 30px; }
   input {
     font-size: 16px;
-    height: 50px; } }
+    height: 50px; }
+  .home-advantages {
+    padding: 0; } }
 
 @media only screen and (max-width: 500px) {
   .header-box {
@@ -546,6 +548,8 @@
   .section-history .home-advantages h4 {
     margin: 0 0 0 200px;
     font-size: 17px; }
+    .section-history .home-advantages h4 br {
+      display: none; }
   .investments-section {
     margin: 75px 0 32px; }
   .investments-item {
@@ -710,17 +714,17 @@
 
 @media only screen and (max-width: 370px) {
   .header-box {
-    font-size: 12px; }
+    font-size: 11px; }
     .header-box span {
       font-size: 9px; }
   .header-contact span {
     font-size: 9px; }
   .logo {
-    max-width: 80px; }
+    max-width: 75px; }
   .phone {
-    font-size: 12px; }
+    font-size: 11px; }
   h1 {
-    font-size: 22px; }
+    font-size: 18px; }
   h2 {
     font-size: 22px;
     line-height: normal; }
@@ -728,24 +732,24 @@
     font-size: 16px; }
   .home-content .box-text {
     margin: 30px 0 40px; }
-  .home-advantages-box {
-    margin: 0 10px 0 0; }
-    .home-advantages-box p {
-      font-size: 16px; }
+  .home-advantages-box p {
+    font-size: 10px; }
   .home-advantages-box__num .number {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 1; }
   .home-advantages-box__num {
-    margin: -10px 0 0; }
+    margin: -6px 0 0; }
   .home-advantages-box__num .currency {
     margin: 0 0 5px; }
   .home-advantages-box__num .currency span {
-    font-size: 45px;
+    font-size: 25px;
     line-height: 1; }
   .home-advantages-box__num .currency p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1;
     margin: -5px 0 0; }
+  .section-history h2 {
+    font-size: 22px; }
   .section-history .box-text {
     margin: 30px 0 0; }
   .section-history .home-advantages-box__num {
