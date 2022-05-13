@@ -1,12 +1,40 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) {
+  .home-img {
+    max-width: 1100px; }
+  .section-history-img {
+    max-width: 420px; }
+  .investments-image {
+    width: 650px;
+    top: 55%;
+    left: -280px; }
+  .scale-section {
+    padding: 40px 0 30px; }
+  .scale-section-wrapper .home-advantages-box {
+    margin: 0 0 40px; }
+  .income-section {
+    padding: 80px 0 20px; }
+  .stages-section1 {
+    padding: 40px 0 20px; }
+    .stages-section1 h2 {
+      margin: 0 0 40px; }
+  .plane-stages {
+    margin: 60px 0 0; }
+  .enthusiasts-section-img {
+    max-width: 900px; } }
+
 @media only screen and (max-width: 1550px) {
   .home-img {
     max-width: 900px; }
+  .home-section {
+    padding: 130px 0 30px; }
   .home-advantages {
     margin: 0 0 40px; }
   .home-content .box-text {
     margin: 25px 0 50px; }
+  .section-history {
+    padding: 120px 0 30px; }
   .section-history-img {
     max-width: 300px; }
   .investments-image {
@@ -16,16 +44,22 @@
     font-size: 55px;
     line-height: normal; }
   .scale-section {
-    padding: 40px 0 20px; }
+    padding: 30px 0 20px; }
   .sources-box {
     margin: 0; }
   .scale-section-wrapper h3 {
-    font-size: 90px; }
+    font-size: 90px;
+    margin: 0; }
   .scale-section-wrapper .home-advantages-box {
     margin: 0 0 25px; }
   .scale-section-wrapper .home-advantages-box__num .number {
-    font-size: 90px;
+    font-size: 80px;
     line-height: normal; }
+  .scale-section-wrapper .home-advantages-box__num .currency span {
+    font-size: 45px;
+    line-height: 1; }
+  .scale-section-wrapper .home-advantages-box-col .text {
+    line-height: 24px; }
   .sources {
     margin: 0; }
   .income-section {
@@ -39,11 +73,21 @@
   .stages-section h2, .plane-stages h3 {
     margin: 0 0 50px; }
   .stages-section1 {
-    padding: 60px 0 30px; }
+    padding: 30px 0 30px; }
+    .stages-section1 .box-text p {
+      margin: 0 0 25px; }
+    .stages-section1 .letter {
+      margin: 0; }
+  .stages-section2 {
+    padding: 130px 0 30px; }
+  .enthusiasts-section {
+    padding: 40px 0 30px; }
+  .developer-section {
+    padding: 40px 0; }
   .plane-stages {
-    margin: 60px 0 0; }
+    margin: 40px 0 0; }
     .plane-stages h3 {
-      margin: 0 0 30px; }
+      margin: 0 0 20px; }
   .stages-section h2 {
     margin: 0 0 30px; }
   .enthusiasts-section-img {
@@ -63,6 +107,10 @@
     margin: -30px 80px 0 auto; } }
 
 @media only screen and (max-width: 1300px) {
+  .section {
+    padding: 60px 0; }
+  .home-section {
+    padding: 160px 0 30px; }
   .header {
     padding: 34px 0; }
   .home-img {
@@ -104,6 +152,33 @@
 @media only screen and (max-width: 1100px) {
   .enthusiasts-section-img {
     max-width: 550px; } }
+
+@media only screen and (max-width: 1060px) {
+  .section {
+    padding: 40px 0; }
+  .section-history .home-advantages {
+    margin: 40px 0 0; }
+  .section-history .home-advantages-box {
+    margin-right: 30px; }
+  .investments-image {
+    left: -230px; }
+  .stages-section1 {
+    padding: 30px 0; }
+    .stages-section1 .box-text p {
+      margin: 0 0 15px; }
+  .plane-stages {
+    margin: 20px 0 0; }
+    .plane-stages h3 {
+      margin: 0 0 20px; }
+  .enthusiasts-section .letter {
+    margin: 0; }
+  .enthusiasts-section .box-text {
+    padding: 0; }
+    .enthusiasts-section .box-text p {
+      margin: 0 0 25px; }
+  .enthusiasts-footer {
+    padding: 0;
+    margin: 40px 0 0; } }
 
 @media only screen and (max-width: 992px) {
   .fp-overflow {
