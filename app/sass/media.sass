@@ -199,15 +199,39 @@
   .enthusiasts-section-img
     max-width: 600px
 
+  .stages-section1
+    padding: 30px 0
+
+  .plane-stages
+    margin: 20px 0 0
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1100px)
   .enthusiasts-section-img
     max-width: 550px
 
+  .fp-overflow
+    overflow-x: hidden
+
+  .home-content .btn
+    height: 60px
+
+  .home-section
+    padding: 140px 0 20px
+
+  .stages-section2 .letter-number
+    margin: 0
+
 @media only screen and (max-width: 1060px)
   .section
     padding: 40px 0
 
+  .home-section
+    padding: 177px 0 10px
+
+  .home-img
+    bottom: auto
+    top: 182px
 
   .section-history .home-advantages
     margin: 40px 0 0
@@ -252,9 +276,14 @@
 
   .section
     margin: 75px 0
+    padding: 0
 
   .header
     position: relative
+    padding: 34px 0 0
+
+  .header-box
+    line-height: 22px
 
   .home-img
     max-width: 700px
@@ -279,10 +308,21 @@
   .section-history-img
     left: -15px
 
-  .home-content .box-text
-    font-size: 16px
-    line-height: 24px
-    padding-right: 160px
+  .home-section
+    padding: 0
+    margin: 108px 0 0
+
+  .home-img
+    top: 0
+
+  .home-advantages-box
+    min-width: auto
+
+  .home-content
+    .box-text
+      font-size: 16px
+      line-height: 24px
+      padding-right: 190px
 
   .section-history
     .home-advantages-box
@@ -295,13 +335,17 @@
         margin: 0 0 0 290px
 
   .investments-section
+    .subtitle
+      margin: 0
     h2
       max-width: 382px
       margin: 0 0 42px
 
   .investments-image
-    max-width: 700px
+    width: 700px
+    max-width: none
     left: -260px
+    top: 60%
 
   .home-advantages-box .text
     margin: 0 0 0 38px
@@ -313,6 +357,12 @@
 
   .scale-section
     margin: 150px 0 75px
+
+  .scale-section-wrapper .home-advantages-box
+    margin: 0 0 100px
+
+  .scale-section-wrapper .home-advantages-box-col .text
+    margin: 0 0 0 30px
 
   .scale-section-wrapper h3
     position: relative
@@ -376,6 +426,10 @@
       padding: 0 170px 0 0
 
 @media only screen and (max-width: 768px)
+  .header-box
+    margin: 0 auto
+
+
   .home-content
     h1, .subtitle
       padding: 0 144px 0 0
@@ -404,8 +458,14 @@
 
 
   .section-history
+    margin: 98px 0 0
     h2
       font-size: 28px
+      max-width: 412px
+    .box-text
+      margin: 47px 0 0
+      br
+        display: none
     .home-advantages h4
       font-size: 20px
       max-width: 240px
@@ -425,15 +485,6 @@
         p
           font-size: 24px
           line-height: 29px
-
-  .section-history
-    margin: 75px 0 0
-    h2
-      max-width: 412px
-    .box-text
-      margin: 47px 0 0
-      br
-        display: none
 
   .title-decor
     &:before
@@ -498,6 +549,9 @@
     font-size: 220px
     margin: -30px 0 0
 
+  .letter span
+    margin: 0 auto
+
   .stages-section2
     h2
       margin: 0 0 40px
@@ -541,7 +595,7 @@
     line-height: normal
 
   .developer-section
-    margin: 75px 0 30px
+    margin: 75px 0 50px
     h2
       margin: 0 0 58px
 
@@ -628,6 +682,7 @@
 @media only screen and (max-width: 500px)
   .header-box
     font-size: 14px
+    line-height: normal
     span
       font-size: 11px
 
@@ -644,15 +699,16 @@
   .logo
     max-width: 90px
 
-
   .section
     margin: 30px 0
 
-  .section-history .home-advantages
-    margin: 40px 0 0
+  .section-history
+    margin: 60px 0 0
+    .home-advantages
+      margin: 40px 0 0
 
-  .section-history .home-advantages-box:nth-child(2)
-    margin: -30px 0 30px 200px
+    .home-advantages-box:nth-child(2)
+      margin: -30px 0 30px 200px
 
   .section-history-img
     max-width: 200px
@@ -661,27 +717,41 @@
     margin: 0 0 0 200px
     font-size: 17px
 
-  .scale-section-wrapper .home-advantages-box
-    margin: 0 0 40px
-    .home-advantages-box__num
-      flex-wrap: wrap
+  .investments-section
+    margin: 75px 0 32px
 
-  .scale-section-wrapper .home-advantages-box .text
-    margin: 10px 0 0
-    width: 100%
-    max-width: none
+  .investments-item
+    padding: 0
+    br
+      display: none
+
+  .scale-section-wrapper
+    .home-advantages-box
+      margin: 0 0 40px
+      .text
+        margin: 10px 0 0
+        width: 100%
+        max-width: none
+      .home-advantages-box__num
+        flex-wrap: wrap
+    h3
+      font-size: 90px
 
   .scale-section
-    margin: 110px 0 60px
+    margin: 100px 0 50px
 
-
-  .scale-section-wrapper h3
-    font-size: 90px
+  .income-section
+    margin: 75px 0 33px
 
   .income-box
     margin: 0 0 40px
     h3
       font-size: 50px
+    .box-text
+      font-size: 14px
+      line-height: normal
+      br
+        display: none
     &:last-child
       margin: 0 0 60px
 
@@ -690,8 +760,18 @@
     margin: 0 0 50px
     line-height: normal
 
+  .stages-section1
+    margin: 75px 0 52px
+
   .letter-item
     font-size: 180px
+
+  .letter
+    font-size: 15px
+    line-height: normal
+
+  .stages-section .home-advantages-box .text
+    line-height: normal
 
   .plane-stages
     margin: 50px 0 0
@@ -710,17 +790,24 @@
   .mt-100
     margin-top: 30px
 
-  .enthusiasts-section .letter-item
-    font-size: 80px
+  .enthusiasts-section
+    margin: 75px 0 0
+    padding: 0 0 170px
+    .letter-item
+      font-size: 80px
+      span
+        font-size: 12px
+        top: 45px
+        left: 55px
+    h4
+      font-size: 18px
+      line-height: normal
+    .letter
+      span
+        font-size: 13px
+        top: 45px
+        left: 55px
 
-  .enthusiasts-section .letter span
-    font-size: 12px
-    top: 45px
-    left: 55px
-
-  .enthusiasts-section h4
-    font-size: 18px
-    line-height: normal
 
   .enthusiasts-footer
     margin: 40px 0 0
@@ -732,7 +819,34 @@
   .developer-photo-wrapper .developer-photo
     height: 600px
 
-/* Custom, iPhone Retina */
+  .home-section
+    margin: 108px 0 10px
+
+  .home-content h1, .home-content .subtitle
+    padding: 0 124px 0 0
+
+  .home-img
+    max-width: 380px
+    right: -120px
+
+  .home-advantages-box__num .number
+    font-size: 80px
+    line-height: normal
+
+  .home-advantages-box
+    margin: 0 auto 0 0
+    p
+      font-size: 15px
+      line-height: normal
+
+  .home-advantages-box__num .currency span
+    font-size: 40px
+    line-height: normal
+
+  .home-advantages-box__num .currency p
+    font-size: 20px
+    line-height: normal
+
 @media only screen and (max-width: 440px)
   .home-content h1, .home-content .subtitle
     padding: 0 70px 0 0
@@ -750,6 +864,23 @@
 
   .header-box, .header-contact
     letter-spacing: 0
+
+  .home-section
+    margin: 50px 0 10px
+
+  .home-advantages-box p
+    font-size: 13px
+
+  .home-advantages-box__num .number
+    font-size: 70px
+
+  .home-advantages-box__num .currency
+    margin: 0 0 10px
+    span
+      font-size: 30px
+
+  h1
+    font-size: 22px
 
   .investments-image
     width: 500px
@@ -772,7 +903,7 @@
 
   .income-box
     h3
-      font-size: 30px
+      font-size: 33px
 
   .income-section h2
     font-size: 26px
@@ -889,4 +1020,4 @@
       margin: 0 0 20px
 
   .enthusiasts-section
-    padding: 0 0 200px
+    padding: 0 0 120px

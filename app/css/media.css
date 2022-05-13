@@ -146,16 +146,33 @@
   .enthusiasts-footer .btn {
     max-width: 250px; }
   .enthusiasts-section-img {
-    max-width: 600px; } }
+    max-width: 600px; }
+  .stages-section1 {
+    padding: 30px 0; }
+  .plane-stages {
+    margin: 20px 0 0; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1100px) {
   .enthusiasts-section-img {
-    max-width: 550px; } }
+    max-width: 550px; }
+  .fp-overflow {
+    overflow-x: hidden; }
+  .home-content .btn {
+    height: 60px; }
+  .home-section {
+    padding: 140px 0 20px; }
+  .stages-section2 .letter-number {
+    margin: 0; } }
 
 @media only screen and (max-width: 1060px) {
   .section {
     padding: 40px 0; }
+  .home-section {
+    padding: 177px 0 10px; }
+  .home-img {
+    bottom: auto;
+    top: 182px; }
   .section-history .home-advantages {
     margin: 40px 0 0; }
   .section-history .home-advantages-box {
@@ -189,9 +206,13 @@
   #fullpage {
     width: 100%; }
   .section {
-    margin: 75px 0; }
+    margin: 75px 0;
+    padding: 0; }
   .header {
-    position: relative; }
+    position: relative;
+    padding: 34px 0 0; }
+  .header-box {
+    line-height: 22px; }
   .home-img {
     max-width: 700px;
     right: -200px; }
@@ -208,10 +229,17 @@
     font-size: 14px; }
   .section-history-img {
     left: -15px; }
+  .home-section {
+    padding: 0;
+    margin: 108px 0 0; }
+  .home-img {
+    top: 0; }
+  .home-advantages-box {
+    min-width: auto; }
   .home-content .box-text {
     font-size: 16px;
     line-height: 24px;
-    padding-right: 160px; }
+    padding-right: 190px; }
   .section-history .home-advantages-box {
     width: 100%;
     margin: 0 66px 0 0; }
@@ -219,12 +247,16 @@
       margin: -80px 0 66px 280px; }
   .section-history .home-advantages h4 {
     margin: 0 0 0 290px; }
+  .investments-section .subtitle {
+    margin: 0; }
   .investments-section h2 {
     max-width: 382px;
     margin: 0 0 42px; }
   .investments-image {
-    max-width: 700px;
-    left: -260px; }
+    width: 700px;
+    max-width: none;
+    left: -260px;
+    top: 60%; }
   .home-advantages-box .text {
     margin: 0 0 0 38px; }
   .sources h2 {
@@ -232,6 +264,10 @@
     margin: 0 0 46px; }
   .scale-section {
     margin: 150px 0 75px; }
+  .scale-section-wrapper .home-advantages-box {
+    margin: 0 0 100px; }
+  .scale-section-wrapper .home-advantages-box-col .text {
+    margin: 0 0 0 30px; }
   .scale-section-wrapper h3 {
     position: relative;
     margin: 0 0 67px;
@@ -286,6 +322,8 @@
     padding: 0 170px 0 0; } }
 
 @media only screen and (max-width: 768px) {
+  .header-box {
+    margin: 0 auto; }
   .home-content h1, .home-content .subtitle {
     padding: 0 144px 0 0; }
   .home-content .box-text {
@@ -307,34 +345,33 @@
     font-size: 16px; }
   .logo {
     max-width: 150px; }
-  .section-history h2 {
-    font-size: 28px; }
-  .section-history .home-advantages h4 {
-    font-size: 20px;
-    max-width: 240px; }
-  .section-history .home-advantages-box:nth-child(2) {
-    margin: -50px 0 66px 260px; }
-  .section-history .home-advantages-box p {
-    font-size: 14px;
-    line-height: 16px; }
-  .section-history .home-advantages-box__num {
-    margin: -10px 0 0; }
-    .section-history .home-advantages-box__num .number {
-      font-size: 64px;
-      line-height: 77px; }
-    .section-history .home-advantages-box__num .currency {
-      margin: 0 0 10px; }
-      .section-history .home-advantages-box__num .currency p {
-        font-size: 24px;
-        line-height: 29px; }
   .section-history {
-    margin: 75px 0 0; }
+    margin: 98px 0 0; }
     .section-history h2 {
+      font-size: 28px;
       max-width: 412px; }
     .section-history .box-text {
       margin: 47px 0 0; }
       .section-history .box-text br {
         display: none; }
+    .section-history .home-advantages h4 {
+      font-size: 20px;
+      max-width: 240px; }
+    .section-history .home-advantages-box:nth-child(2) {
+      margin: -50px 0 66px 260px; }
+    .section-history .home-advantages-box p {
+      font-size: 14px;
+      line-height: 16px; }
+    .section-history .home-advantages-box__num {
+      margin: -10px 0 0; }
+      .section-history .home-advantages-box__num .number {
+        font-size: 64px;
+        line-height: 77px; }
+      .section-history .home-advantages-box__num .currency {
+        margin: 0 0 10px; }
+        .section-history .home-advantages-box__num .currency p {
+          font-size: 24px;
+          line-height: 29px; }
   .title-decor:before {
     width: 25px;
     height: 25px;
@@ -384,6 +421,8 @@
   .letter-item {
     font-size: 220px;
     margin: -30px 0 0; }
+  .letter span {
+    margin: 0 auto; }
   .stages-section2 h2 {
     margin: 0 0 40px; }
   .letter-number {
@@ -420,7 +459,7 @@
     font-size: 36px;
     line-height: normal; }
   .developer-section {
-    margin: 75px 0 30px; }
+    margin: 75px 0 50px; }
     .developer-section h2 {
       margin: 0 0 58px; }
   .developer-box {
@@ -482,7 +521,8 @@
 
 @media only screen and (max-width: 500px) {
   .header-box {
-    font-size: 14px; }
+    font-size: 14px;
+    line-height: normal; }
     .header-box span {
       font-size: 11px; }
   .header-contact span {
@@ -495,40 +535,62 @@
     max-width: 90px; }
   .section {
     margin: 30px 0; }
-  .section-history .home-advantages {
-    margin: 40px 0 0; }
-  .section-history .home-advantages-box:nth-child(2) {
-    margin: -30px 0 30px 200px; }
+  .section-history {
+    margin: 60px 0 0; }
+    .section-history .home-advantages {
+      margin: 40px 0 0; }
+    .section-history .home-advantages-box:nth-child(2) {
+      margin: -30px 0 30px 200px; }
   .section-history-img {
     max-width: 200px; }
   .section-history .home-advantages h4 {
     margin: 0 0 0 200px;
     font-size: 17px; }
+  .investments-section {
+    margin: 75px 0 32px; }
+  .investments-item {
+    padding: 0; }
+    .investments-item br {
+      display: none; }
   .scale-section-wrapper .home-advantages-box {
     margin: 0 0 40px; }
+    .scale-section-wrapper .home-advantages-box .text {
+      margin: 10px 0 0;
+      width: 100%;
+      max-width: none; }
     .scale-section-wrapper .home-advantages-box .home-advantages-box__num {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
-  .scale-section-wrapper .home-advantages-box .text {
-    margin: 10px 0 0;
-    width: 100%;
-    max-width: none; }
-  .scale-section {
-    margin: 110px 0 60px; }
   .scale-section-wrapper h3 {
     font-size: 90px; }
+  .scale-section {
+    margin: 100px 0 50px; }
+  .income-section {
+    margin: 75px 0 33px; }
   .income-box {
     margin: 0 0 40px; }
     .income-box h3 {
       font-size: 50px; }
+    .income-box .box-text {
+      font-size: 14px;
+      line-height: normal; }
+      .income-box .box-text br {
+        display: none; }
     .income-box:last-child {
       margin: 0 0 60px; }
   .income-section h2, .stages-section h2, .plane-stages h3, .enthusiasts-section h2 {
     font-size: 30px;
     margin: 0 0 50px;
     line-height: normal; }
+  .stages-section1 {
+    margin: 75px 0 52px; }
   .letter-item {
     font-size: 180px; }
+  .letter {
+    font-size: 15px;
+    line-height: normal; }
+  .stages-section .home-advantages-box .text {
+    line-height: normal; }
   .plane-stages {
     margin: 50px 0 0; }
   .stages-section .home-advantages-box__num .number {
@@ -540,24 +602,51 @@
     line-height: normal; }
   .mt-100 {
     margin-top: 30px; }
-  .enthusiasts-section .letter-item {
-    font-size: 80px; }
-  .enthusiasts-section .letter span {
-    font-size: 12px;
-    top: 45px;
-    left: 55px; }
-  .enthusiasts-section h4 {
-    font-size: 18px;
-    line-height: normal; }
+  .enthusiasts-section {
+    margin: 75px 0 0;
+    padding: 0 0 170px; }
+    .enthusiasts-section .letter-item {
+      font-size: 80px; }
+      .enthusiasts-section .letter-item span {
+        font-size: 12px;
+        top: 45px;
+        left: 55px; }
+    .enthusiasts-section h4 {
+      font-size: 18px;
+      line-height: normal; }
+    .enthusiasts-section .letter span {
+      font-size: 13px;
+      top: 45px;
+      left: 55px; }
   .enthusiasts-footer {
     margin: 40px 0 0; }
   h2 {
     font-size: 28px;
     line-height: 34px; }
   .developer-photo-wrapper .developer-photo {
-    height: 600px; } }
+    height: 600px; }
+  .home-section {
+    margin: 108px 0 10px; }
+  .home-content h1, .home-content .subtitle {
+    padding: 0 124px 0 0; }
+  .home-img {
+    max-width: 380px;
+    right: -120px; }
+  .home-advantages-box__num .number {
+    font-size: 80px;
+    line-height: normal; }
+  .home-advantages-box {
+    margin: 0 auto 0 0; }
+    .home-advantages-box p {
+      font-size: 15px;
+      line-height: normal; }
+  .home-advantages-box__num .currency span {
+    font-size: 40px;
+    line-height: normal; }
+  .home-advantages-box__num .currency p {
+    font-size: 20px;
+    line-height: normal; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 440px) {
   .home-content h1, .home-content .subtitle {
     padding: 0 70px 0 0; }
@@ -571,6 +660,18 @@
     right: -100px; }
   .header-box, .header-contact {
     letter-spacing: 0; }
+  .home-section {
+    margin: 50px 0 10px; }
+  .home-advantages-box p {
+    font-size: 13px; }
+  .home-advantages-box__num .number {
+    font-size: 70px; }
+  .home-advantages-box__num .currency {
+    margin: 0 0 10px; }
+    .home-advantages-box__num .currency span {
+      font-size: 30px; }
+  h1 {
+    font-size: 22px; }
   .investments-image {
     width: 500px;
     left: -210px; }
@@ -585,7 +686,7 @@
     font-size: 30px;
     margin: 0; }
   .income-box h3 {
-    font-size: 30px; }
+    font-size: 33px; }
   .income-section h2 {
     font-size: 26px; }
   .income-section .description br {
@@ -669,4 +770,4 @@
     .box-text p {
       margin: 0 0 20px; }
   .enthusiasts-section {
-    padding: 0 0 200px; } }
+    padding: 0 0 120px; } }
