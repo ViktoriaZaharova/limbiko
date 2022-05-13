@@ -5,6 +5,7 @@ $(document).ready(function() {
             autoScrolling: true,
             scrollHorizontally: true,
             sectionSelector: '.section',
+            verticalCentered: false,
         });
     }
 });

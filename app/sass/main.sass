@@ -7,7 +7,7 @@
   padding: 60px 0
 
 .home-section
-  padding: 120px 0 0
+  padding: 210px 0 20px
 
 .home-img
   position: absolute
@@ -23,13 +23,16 @@
   width: 100%
   margin: 9px 0 0
   font-size: 16px
+  line-height: 19px
 
 .home-content
   .box-text
-    margin: 29px 0 68px
+    margin: 36px 0 80px
   h1
     max-width: 763px
     width: 100%
+  .btn
+    height: 80px
 
 .home-advantages
   width: 100%
@@ -37,6 +40,7 @@
   align-items: flex-start
   flex-wrap: wrap
   margin: 0 0 69px
+  padding: 0 0 0 10px
   h4
     margin: auto 0 10px auto
     font-size: 28px
@@ -45,6 +49,7 @@
 
 .home-advantages-box
   margin: 0 30px 0 0
+  min-width: 208px
   &:last-child
     margin-right: 0
   p
@@ -58,7 +63,7 @@
     .number
       line-height: 115px
       font-size: 96px
-      margin: 0 3px 0 0
+      margin: 0 8px 0 0
     .currency
       margin: 0 0 15px
       span
@@ -82,11 +87,15 @@
 
 /*==========  section section-history ==========*/
 .section-history
+  padding: 265px 0 30px
   .box-text
     margin: 64px 0 0
 
   .home-advantages
     margin: 139px 0 0
+    padding: 0
+    h4
+      margin: auto 0 10px 0
   .home-advantages-box
     margin-right: 64px
   &-img
@@ -102,32 +111,46 @@
 
 /*==========  section investments-section ==========*/
 .investments-section
+  //padding: 206px 0 0
+
+  .subtitle
+    margin: -30px 0 -3px
   h2
     font-size: 63px
     line-height: 64px
     font-weight: 800
+  .container
+    height: 100%
+    >.row
+      height: 100%
 
 .investments-content
   display: flex
   align-items: center
   position: relative
-  padding: 0 0 0 170px
   z-index: 1
 
 .investments-image
   position: absolute
-  left: -280px
-  top: 65%
+  left: -306px
+  top: 60%
   transform: translate(0,-50%)
-
-  max-width: 928px
-  width: 100%
+  width: 760px
   z-index: -1
+
+.investments-body
+  max-width: 559px
+  width: 100%
+  margin: 0 0 0 auto
 
 .investments-item
   font-size: 18px
-  margin: 0 0 40px
+  margin: 0 0 40px 0
   line-height: 24px
+  padding: 2px 0
+  &:nth-child(3)
+    min-height: 104px
+
   &:last-child
     margin: 0
   p
@@ -137,20 +160,30 @@
 
 
 /*==========  section scale-section ==========*/
+.scale-section
+  padding: 127px 0 20px
+
 .scale-section-wrapper
   h3
     font-size: 110px
     font-weight: 800
+    margin: -80px 0 0
     line-height: 1
   .home-advantages-box
     width: 100%
-    margin: 0 0 30px
+    margin: 0 0 50px
     &__num
       flex-wrap: wrap
+    .text
+      margin-bottom: 5px
+  .home-advantages-box-col
+    .text
+      margin: 5px 0 0
 
 .sources-box
   width: 100%
   height: 255px
+  margin-top: 22px
   background: linear-gradient(0deg, #F8F5F5, #F8F5F5), #9DD0FF
   box-shadow: 0px 0px 10px 5px #F0F0F0
   border-radius: 20px
@@ -165,12 +198,20 @@
     position: absolute
     right: 0
     bottom: 0
+
+.home-advantages-box-col
+  .text
+    margin: 5px 0 0
+
+.sources
+  margin: 17px 0 0
 /*==========  section scale-section end  ==========*/
 
 
 
 /*==========  section income-section ==========*/
 .income-section
+  padding: 120px 0 20px
   .btn
     width: 100%
   .description
@@ -183,20 +224,22 @@
 
 .income-box
   width: 100%
-  margin: 0 0 102px
+  margin: 0 0 80px
   &:last-child
-    margin: 0 0 124px
+    margin: 95px 0 130px
   h3
     font-weight: 800
     font-size: 64px
     line-height: 1
-
 
 /*==========  section income-section end  ==========*/
 
 
 
 /*==========  section stages-section ==========*/
+.stages-section1
+  padding: 140px 0 20px
+
 .stages-section
   h2
     margin: 0 0 64px
@@ -211,19 +254,30 @@
   font-size: 18px
   line-height: 22px
   text-align: center
+  margin: 30px 0 0
   &-item
     font-size: 340px
     text-transform: uppercase
     font-weight: 800
     line-height: 1
-    margin: -50px auto 0
+  span
+    margin: 0 auto -55px
+    display: block
 
 .plane-stages
-  margin: 115px 0 0
+  margin: 106px 0 0
   h3
-    margin: 0 0 64px
+    margin: 0 0 63px
     font-size: 32px
     line-height: 46px
+  .home-advantages-box__num
+    margin: 0
+    .number
+      font-size: 120px
+    .currency
+      margin: 0 0 7px
+    .text
+      margin-bottom: 7px
 
 .letter-number
   position: relative
@@ -236,16 +290,28 @@
     display: block
     width: fit-content
     font-weight: bold
-    bottom: 109px
-    left: 45px
+    bottom: 156px
+    left: 38px
+
+.stages-section2
+  padding: 197px 0 20px
+  .letter-number
+    margin: -53px 0 0px -23px
+    text-align: left
+  .box-text
+    margin-left: -20px
 /*==========  section stages-section end  ==========*/
 
 
 /*==========  section  ==========*/
 .enthusiasts-section
+  padding: 112px 0 20px
+  .subtitle
+    margin-left: 15px
   h2
-    margin: 0 0 33px
+    margin: 0 0 33px 15px
   .letter
+    margin: -36px 0 0 13px
     &-item
       font-size: 292px
       line-height: 350px
@@ -254,18 +320,23 @@
       font-size: 36px
       font-weight: 700
       line-height: 43px
-      margin: -50px 0 0
+      margin: -50px -10px 0 10px
       display: block
       width: 100%
+  .box-text
+    padding: 20px 0 0 33px
 
 .enthusiasts-footer
-  margin: 73px 0 0
+  margin: 60px 0 0
+  padding: 0 0 0 50px
   .btn
     max-width: 350px
     width: 100%
     margin: 0 30px 0 0
   .box-text
     line-height: 24px
+    padding: 0
+    margin: 0 -20px 0 0
 
 .enthusiasts-section-img
   position: absolute
@@ -280,6 +351,11 @@
 
 /*==========  section developer ==========*/
 .developer-section
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: flex-end
+  padding: 50px 0 124px
   h2
     line-height: 32px
 
@@ -293,6 +369,7 @@
   height: 595px
   border-radius: 30px
   position: relative
+  margin: 0 0 0 15px
   img
     width: 100%
     height: 100%
@@ -310,7 +387,7 @@
   font-weight: bold
 
 .developer-content
-  padding: 0 0 0 90px
+  padding: 0 0 0 80px
   .btn
     margin: 30px 0 0
     max-width: 350px
@@ -345,8 +422,10 @@
 
   .title-decor
     &:before
-      right: 35px
-      top: -40px
+      width: 30px
+      height: 30px
+      right: 38px
+      top: -30px
   .name
     font-weight: bold
 
