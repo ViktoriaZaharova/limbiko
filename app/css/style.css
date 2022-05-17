@@ -185,7 +185,7 @@ h3 {
     right: 55px;
     width: 40px;
     height: 40px;
-    background: url("../img/logo-decor.png") no-repeat center;
+    background: url("../img/logo-decor.webp") no-repeat center;
       background-size: 100%; }
 
 .subtitle {
@@ -211,3 +211,6 @@ h3 {
 
 .mt-40 {
   margin-top: 40px; }
+
+.image-mobile {
+  display: none !important; }
